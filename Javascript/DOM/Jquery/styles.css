@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    color: aqua;
+}
+.big-title{
+    font-size: 10rem;
+    color: yellow;
+    font-family: fantasy;
+}
+.margin-50{
+    margin: 50px;
+}
