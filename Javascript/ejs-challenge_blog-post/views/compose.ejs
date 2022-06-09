@@ -1,0 +1,18 @@
+<%- include("partials/header.ejs"); -%> 
+
+<h1>Compose</h1>
+<form action="/compose" method="post">
+    <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label">Title</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" name="postTitle">
+    </div>
+    <div class="form-floating">
+        <label for="floatingTextarea">Post</label>
+        <textarea class="form-control" id="floatingTextarea" name="postBody" rows="5" cols="30"></textarea>
+    </div>
+    <div style="margin-top: 10px;">
+        <button class="btn btn-primary" type="submit">Publish</button>
+    </div>
+</form>
+
+<%- include("partials/footer.ejs"); -%>
